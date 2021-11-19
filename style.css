@@ -1,0 +1,78 @@
+body{
+    background: url(assets/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #fff;
+  
+}
+
+.content{
+    margin-top: 150px;
+}
+
+.clock{
+    font-size: 50px;
+    font-weight: 900;
+    display: flex;
+    flex-direction: flex-end;
+}
+.searchBar{
+    border: 1px solid #FFF;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    width: 900px;
+}
+.icon{
+    position: relative;
+    left: 15px;
+    top: 15px;
+    font-size: 20px;
+}
+.input{
+    background-color: transparent;
+    font-size: 16px;
+    border: none;
+    margin-top: 8px;
+    margin-left: 25px;
+    padding: 0;
+    color: #fff;
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    height: 34px;
+    font-size: 16px;
+    width: 80%;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.github{
+    position: absolute;
+    bottom:0;
+    right:0;
+    font-size: 20px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    cursor: pointer;
+}
+.github:hover{
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    transform: rotate(60deg);
+}
+.source{
+    position: absolute;
+    bottom: 0;
+}
+.source a{
+    color: #fff;
+    text-decoration: none;
+}
